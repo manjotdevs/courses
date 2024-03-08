@@ -1,4 +1,4 @@
-% Created 2024-03-08 Fri 00:57
+% Created 2024-03-08 Fri 18:36
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -28,29 +28,29 @@
 
 \maketitle
 \section*{Introduction to Programing}
-\label{sec:orgf030484}
+\label{sec:orgaf2f964}
 Programing is a  way to talk to computers. A language like  English can be use to  talk to a human but for computers  we need straight forword instructions
 \subsection*{Computer is Dumb!}
-\label{sec:org6541831}
+\label{sec:orga299c87}
 When was the last time you ordered some cereal and got DVDs of serial ? \\
 Programing is the act of constructing a program, a set of precise instructions telling a computer what to do.
 \subsection*{What is Ecmascript?}
-\label{sec:orgacdc791}
+\label{sec:org9e9b420}
 ECMA Scipt is a standard on which javascript is based!
 It was created to ensure that different documents on javascript are actually talking about the some language. \\
 JavaScript \& ECMA script can almost always be used interchangably javascript  is very liberal  in what it allows.
 \subsection*{How to execute JavaScript?}
-\label{sec:orgb5f2b29}
+\label{sec:org769762b}
 JavaScript can be executed right inside one's browser. You can open the javascript console and start writing javascript there. \\
 Another way to execute javascript is a runtime like Node.js which can be installed and used to run javascript code. \\
 Yet another way to execute javascript is by inserting it inside <script> tag of an HTML documents
 
 \newpage
 \section*{Chapter 1 Variables \& Data}
-\label{sec:org39af3bf}
+\label{sec:orgd0fb8f4}
 Just like we follow some rules white speaking english(the grammar) we have some rules to follow while writing a javascript program. The set of these rules is called syntax in javascript
 \subsection*{What is a varible ?}
-\label{sec:orga7de24d}
+\label{sec:orge988bd8}
 A variable is a container that stores a value.This is very similar to the containers used to store rice water and cats (treat this as an analagy!) \\
 This value of a javascript variable can be changed during the execution of a program
 
@@ -58,7 +58,7 @@ var a = 7;
 
 let a = 7;
 \subsection*{Rules for choosing variable names}
-\label{sec:orgce824e2}
+\label{sec:org03ea81d}
 \begin{itemize}
 \item Letters, digits, underscores \& \$ sign allowed
 \item Must begin with a \$, \_ or a letter
@@ -66,7 +66,7 @@ let a = 7;
 \item Harry \& harry are different variable (case sensitive)
 \end{itemize}
 \subsection*{Var vs Let in javaScript}
-\label{sec:org2bb30dc}
+\label{sec:org06c4922}
 \begin{itemize}
 \item var is globally scoped while let \& const are block scoped
 \item var can be updated \& re-declared within its scope
@@ -76,7 +76,7 @@ let a = 7;
 \item const must be initialjed during declaration unlike let and var
 \end{itemize}
 \subsection*{Prinitive data type \& objects}
-\label{sec:org61062a3}
+\label{sec:org27ecfec}
 Primitive data type are a set of basic data types in javascript \\
 Object is a non prinitive datatype in javascript.
 objects is a non prinitive datatype in javascript
@@ -92,7 +92,7 @@ these are the 7 prinitive datatype in javascript
 \item Biglnt
 \end{itemize}
 \subsection*{Object}
-\label{sec:org0d51fa3}
+\label{sec:orgdcd6c8c}
 An object in JavaScript can be created as follows.\\
 
 \begin{verbatim}
@@ -102,25 +102,56 @@ const item = {
 };
 \end{verbatim}
 \subsection*{Quick Quiz}
-\label{sec:org4108bea}
+\label{sec:orgdf37bd4}
 Write a javascript program to store name, phone number and marks of a student using objects.
 
 \newpage
 \section*{Chapter 2 Expressions \& conditionals}
-\label{sec:org1b4cf7c}
+\label{sec:orgc2490d1}
 A fragment of code that produces a value is called an expression. Every value written literally is an expression for ex: 77 or ``Manjot''
 \subsection*{Operators in JavaScript}
-\label{sec:orgc0116ba}
-1.Arithmetic Operators \\
+\label{sec:org74cf058}
+\begin{enumerate}
+\item Arithmetic Operators \\
 \begin{verbatim}
-            + = Addition
-            - = Subtraction
-            * = Multiplication
-            ** = Exponentiation
-            / = Division
-            % = Modulus
-            ++ = Increment
-            -- = Decerment
-
+        +  = Addition
+        -  = Subtraction
+        *  = Multiplication
+        ** = Exponentiation
+        /  = Division
+        %  = Modulus
+        ++ = Increment
+        -- = Decerment
 \end{verbatim}
+
+\item Assignment Operators
+\begin{verbatim}
+        =    x=y
+        +=   x=x+y
+        -=   x=x-y
+        *=   x=x*y
+        /=   x=x/y
+        %=   x=x%y
+        **=  x=x**y
+\end{verbatim}
+
+\item Comparison Operators
+\begin{verbatim}
+        ==   equal to
+        !=   not equal
+        ===  equal value and type
+        !==  not equal value or not equal type
+        >    greater than
+        <    less than
+        >=   greater than or equal to
+        <=   less than or equal to
+        ?    ternary operator
+\end{verbatim}
+\item Logical Operators
+\begin{verbatim}
+        &&   logical and
+        ||   logical or
+        !    logical not
+\end{verbatim}
+\end{enumerate}
 \end{document}

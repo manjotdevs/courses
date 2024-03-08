@@ -82,15 +82,44 @@ Write a javascript program to store name, phone number and marks of a student us
 A fragment of code that produces a value is called an expression. Every value written literally is an expression for ex: 77 or "Manjot"
 
 ** Operators in JavaScript
-1.Arithmetic Operators \\
+1. Arithmetic Operators \\
         #+begin_src javascript
-            + = Addition
-            - = Subtraction
-            * = Multiplication
-            ** = Exponentiation
-            / = Division
-            % = Modulus
-            ++ = Increment
-            -- = Decerment
+        +  = Addition
+        -  = Subtraction
+        *  = Multiplication
+        ** = Exponentiation
+        /  = Division
+        %  = Modulus
+        ++ = Increment
+        -- = Decerment
+        #+end_src
 
+2. Assignment Operators
+        #+begin_src javascript
+        =    x=y
+        +=   x=x+y
+        -=   x=x-y
+        *=   x=x*y
+        /=   x=x/y
+        %=   x=x%y
+        **=  x=x**y
+        #+end_src
+
+3. Comparison Operators
+        #+begin_src javascript
+        ==   equal to
+        !=   not equal
+        ===  equal value and type
+        !==  not equal value or not equal type
+        >    greater than
+        <    less than
+        >=   greater than or equal to
+        <=   less than or equal to
+        ?    ternary operator
+        #+end_src
+4. Logical Operators
+        #+begin_src javascript
+        &&   logical and
+        ||   logical or
+        !    logical not
         #+end_src
