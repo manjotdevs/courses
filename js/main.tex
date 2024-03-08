@@ -1,0 +1,126 @@
+% Created 2024-03-08 Fri 00:57
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{sectsty}
+\sectionfont{\centering}
+\author{Manjot dev}
+\date{\today}
+\title{JavaScript by}
+\hypersetup{
+ pdfauthor={Manjot dev},
+ pdftitle={JavaScript by},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.2 (Org mode 9.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section*{Introduction to Programing}
+\label{sec:orgf030484}
+Programing is a  way to talk to computers. A language like  English can be use to  talk to a human but for computers  we need straight forword instructions
+\subsection*{Computer is Dumb!}
+\label{sec:org6541831}
+When was the last time you ordered some cereal and got DVDs of serial ? \\
+Programing is the act of constructing a program, a set of precise instructions telling a computer what to do.
+\subsection*{What is Ecmascript?}
+\label{sec:orgacdc791}
+ECMA Scipt is a standard on which javascript is based!
+It was created to ensure that different documents on javascript are actually talking about the some language. \\
+JavaScript \& ECMA script can almost always be used interchangably javascript  is very liberal  in what it allows.
+\subsection*{How to execute JavaScript?}
+\label{sec:orgb5f2b29}
+JavaScript can be executed right inside one's browser. You can open the javascript console and start writing javascript there. \\
+Another way to execute javascript is a runtime like Node.js which can be installed and used to run javascript code. \\
+Yet another way to execute javascript is by inserting it inside <script> tag of an HTML documents
+
+\newpage
+\section*{Chapter 1 Variables \& Data}
+\label{sec:org39af3bf}
+Just like we follow some rules white speaking english(the grammar) we have some rules to follow while writing a javascript program. The set of these rules is called syntax in javascript
+\subsection*{What is a varible ?}
+\label{sec:orga7de24d}
+A variable is a container that stores a value.This is very similar to the containers used to store rice water and cats (treat this as an analagy!) \\
+This value of a javascript variable can be changed during the execution of a program
+
+var a = 7;
+
+let a = 7;
+\subsection*{Rules for choosing variable names}
+\label{sec:orgce824e2}
+\begin{itemize}
+\item Letters, digits, underscores \& \$ sign allowed
+\item Must begin with a \$, \_ or a letter
+\item JavaScript reserved words cannot be used as a variable name
+\item Harry \& harry are different variable (case sensitive)
+\end{itemize}
+\subsection*{Var vs Let in javaScript}
+\label{sec:org2bb30dc}
+\begin{itemize}
+\item var is globally scoped while let \& const are block scoped
+\item var can be updated \& re-declared within its scope
+\item let can be updated but not re-declared
+\item const can neither be updated nor be re-declared
+\item var variable are initialjed with undefind where as let and const variable are not initialjed
+\item const must be initialjed during declaration unlike let and var
+\end{itemize}
+\subsection*{Prinitive data type \& objects}
+\label{sec:org61062a3}
+Primitive data type are a set of basic data types in javascript \\
+Object is a non prinitive datatype in javascript.
+objects is a non prinitive datatype in javascript
+these are the 7 prinitive datatype in javascript
+
+\begin{itemize}
+\item Null
+\item Number
+\item String
+\item Symbol
+\item Undefined
+\item Boolean
+\item Biglnt
+\end{itemize}
+\subsection*{Object}
+\label{sec:org0d51fa3}
+An object in JavaScript can be created as follows.\\
+
+\begin{verbatim}
+const item = {
+    name: "Led Bulb",
+    price: "150"
+};
+\end{verbatim}
+\subsection*{Quick Quiz}
+\label{sec:org4108bea}
+Write a javascript program to store name, phone number and marks of a student using objects.
+
+\newpage
+\section*{Chapter 2 Expressions \& conditionals}
+\label{sec:org1b4cf7c}
+A fragment of code that produces a value is called an expression. Every value written literally is an expression for ex: 77 or ``Manjot''
+\subsection*{Operators in JavaScript}
+\label{sec:orgc0116ba}
+1.Arithmetic Operators \\
+\begin{verbatim}
+            + = Addition
+            - = Subtraction
+            * = Multiplication
+            ** = Exponentiation
+            / = Division
+            % = Modulus
+            ++ = Increment
+            -- = Decerment
+
+\end{verbatim}
+\end{document}

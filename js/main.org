@@ -1,0 +1,96 @@
+#+title: JavaScript by
+#+AUTHOR: Manjot dev
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+LaTeX_HEADER: \usepackage{sectsty}
+#+LaTeX_HEADER: \sectionfont{\centering}
+
+* Introduction to Programing
+Programing is a  way to talk to computers. A language like  English can be use to  talk to a human but for computers  we need straight forword instructions
+
+** Computer is Dumb!
+When was the last time you ordered some cereal and got DVDs of serial ? \\
+Programing is the act of constructing a program, a set of precise instructions telling a computer what to do.
+
+** What is Ecmascript?
+ECMA Scipt is a standard on which javascript is based!
+It was created to ensure that different documents on javascript are actually talking about the some language. \\
+JavaScript & ECMA script can almost always be used interchangably javascript  is very liberal  in what it allows.
+
+** How to execute JavaScript?
+JavaScript can be executed right inside one's browser. You can open the javascript console and start writing javascript there. \\
+Another way to execute javascript is a runtime like Node.js which can be installed and used to run javascript code. \\
+Yet another way to execute javascript is by inserting it inside <script> tag of an HTML documents
+
+\newpage
+
+* Chapter 1 Variables & Data
+Just like we follow some rules white speaking english(the grammar) we have some rules to follow while writing a javascript program. The set of these rules is called syntax in javascript
+
+** What is a varible ?
+A variable is a container that stores a value.This is very similar to the containers used to store rice water and cats (treat this as an analagy!) \\
+This value of a javascript variable can be changed during the execution of a program
+
+        var a = 7;
+
+        let a = 7;
+
+** Rules for choosing variable names
+- Letters, digits, underscores & $ sign allowed
+- Must begin with a $, _ or a letter
+- JavaScript reserved words cannot be used as a variable name
+- Harry & harry are different variable (case sensitive)
+
+** Var vs Let in javaScript
++ var is globally scoped while let & const are block scoped
++ var can be updated & re-declared within its scope
++ let can be updated but not re-declared
++ const can neither be updated nor be re-declared
++ var variable are initialjed with undefind where as let and const variable are not initialjed
++ const must be initialjed during declaration unlike let and var
+
+** Prinitive data type & objects
+Primitive data type are a set of basic data types in javascript \\
+Object is a non prinitive datatype in javascript.
+objects is a non prinitive datatype in javascript
+these are the 7 prinitive datatype in javascript
+
+- Null
+- Number
+- String
+- Symbol
+- Undefined
+- Boolean
+- Biglnt
+
+** Object
+An object in JavaScript can be created as follows.\\
+
+#+begin_src javascript
+const item = {
+    name: "Led Bulb",
+    price: "150"
+};
+#+end_src
+
+** Quick Quiz
+Write a javascript program to store name, phone number and marks of a student using objects.
+
+\newpage
+
+* Chapter 2 Expressions & conditionals
+A fragment of code that produces a value is called an expression. Every value written literally is an expression for ex: 77 or "Manjot"
+
+** Operators in JavaScript
+1.Arithmetic Operators \\
+        #+begin_src javascript
+            + = Addition
+            - = Subtraction
+            * = Multiplication
+            ** = Exponentiation
+            / = Division
+            % = Modulus
+            ++ = Increment
+            -- = Decerment
+
+        #+end_src
