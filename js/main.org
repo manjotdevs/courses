@@ -123,3 +123,32 @@ A fragment of code that produces a value is called an expression. Every value wr
         ||   logical or
         !    logical not
         #+end_src
+
+        Apart from these, We also have type and bitwise operator. Bitwise operator preform bit by bit operators on number
+
+                #+begin_src javascript
+                7 + 8 = 15
+                #+end_src
+
+** Comments in JavaScript
+Sometimes we want our programs to contain a text which is not executed by the JS Engine
+
+Such a text is called comment in javascript
+A Comment in JavaScript can be written as follows:
+
+#+begin_src javascript
+Let a = 2; // this is a single line comment
+
+/*
+i am a
+multiline comment
+
+#+end_src
+
+Sometimes Comments are used to prevent the execution of some lines of code
+        #+begin_src javascript
+        let switch = true;
+        // switch = false
+        #+end_src
+
+conditional stat
